@@ -47,7 +47,7 @@ with col2:
                 n=[d1, d2, d3, d4, d5]
                 # Display dice images
                 dice_placeholder.image(
-                    [f"images/dice{d1}.jpg", f"images/dice{d2}.jpg", f"images/dice{d3}.jpg",f"images/dice{d4}.jpg",f"images/dice{d5}.jpg"], width=100
+                    [f"DadoMagico/images/dice{d1}.jpg", f"DadoMagico/images/dice{d2}.jpg", f"DadoMagico/images/dice{d3}.jpg",f"DadoMagico/images/dice{d4}.jpg",f"DadoMagico/images/dice{d5}.jpg"], width=100
                 )
                 time.sleep(0.07)  # small delay to simulate animation
     
@@ -56,7 +56,6 @@ with col2:
     counts = tiradados(n)
     movess = CombiDados(counts)
     result_placeholder.markdown(f"### Numero de movimientos: {movess}")
-    
     
     
     
