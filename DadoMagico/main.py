@@ -36,7 +36,7 @@ counts=[]
 with col2:
     if st.button("Lanzar"):
         # Simple animation loop
-        for _ in range(15):
+        for _ in range(7):
             # Generate random dice numbers
             d1 = random.randint(1, 6)
             d2 = random.randint(1, 6)
