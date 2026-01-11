@@ -22,8 +22,9 @@ st.subheader("")  # Smaller subtitle
 # ----------------------------
 # These placeholders allow us to update content dynamically
 
-col1, col2, col3 = st.columns([1,6,1])
+col1, col2, col3 = st.columns([1,4,1])
 dice_placeholder = col2.empty()
+dice_placeholder2 = col2.empty()
 result_placeholder = col2.empty()
 
 # ----------------------------
@@ -47,7 +48,9 @@ with col2:
                 n=[d1, d2, d3, d4, d5]
                 # Display dice images
                 dice_placeholder.image(
-                    [f"DadoMagico/images/dice{d1}.jpg", f"DadoMagico/images/dice{d2}.jpg", f"DadoMagico/images/dice{d3}.jpg",f"DadoMagico/images/dice{d4}.jpg",f"DadoMagico/images/dice{d5}.jpg"], width=100
+                    [f"DadoMagico/images/dice{d1}.jpg", f"DadoMagico/images/dice{d2}.jpg", f"DadoMagico/images/dice{d3}.jpg"], width=100
+                )
+                dice_placeholder2.image([f"DadoMagico/images/dice{d4}.jpg",f"DadoMagico/images/dice{d5}.jpg"], width=100
                 )
                 time.sleep(0.07)  # small delay to simulate animation
     
