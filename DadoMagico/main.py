@@ -48,9 +48,9 @@ with col2:
                 n=[d1, d2, d3, d4, d5]
                 # Display dice images
                 dice_placeholder.image(
-                    [f"DadoMagico/images/dice{d1}.jpg", f"DadoMagico/images/dice{d2}.jpg", f"DadoMagico/images/dice{d3}.jpg"], width=70
+                    [f"DadoMagico/images/dice{d1}.jpg", f"DadoMagico/images/dice{d2}.jpg", f"DadoMagico/images/dice{d3}.jpg"], width=50
                 )
-                dice_placeholder2.image([f"DadoMagico/images/dice{d4}.jpg",f"DadoMagico/images/dice{d5}.jpg"], width=70
+                dice_placeholder2.image([f"DadoMagico/images/dice{d4}.jpg",f"DadoMagico/images/dice{d5}.jpg"], width=50
                 )
                 time.sleep(0.07)  # small delay to simulate animation
     
