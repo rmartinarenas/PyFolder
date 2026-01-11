@@ -70,7 +70,7 @@ rollBtn.addEventListener("click", () => {
             if (nonZeroCounts.includes(3)) {
                 console.log('trio');
                 figure = 'Trio';
-                moves = 2;
+                moves = 3;
             } else {
                 console.log('Doble Pareja');
                 moves = 2;
